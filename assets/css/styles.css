@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/images/bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.clock {
+    height: 25rem;
+    width: 75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, .05);
+    border-radius: 2rem;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, .2);
+}
+
+.clock div {
+    height: 75%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 1rem;
+    color: #d5d5d5;
+}
+
+.clock span {
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.clock span.time {
+    font-size: 1.5rem;
+}
